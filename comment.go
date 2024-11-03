@@ -1,6 +1,10 @@
 package calc
 
-import "fmt"
+import (
+	"fmt"
+
+	_ "github.com/go-sql-driver/mysql" // go.mod依存確認用のパッケージ
+)
 
 const (
 	CONST_1 = 100 // 定数1
